@@ -1,0 +1,12 @@
+{
+	"domains": {
+		"dev": "https://${org}-${env}.apigee.net"
+	},
+	"hdfc_sf-team_sf-demo_sf": {
+		"basepath": "/v1/demo_sf",
+		"product":"demo_sfProduct",
+		"app":"demo_sfApp",
+		"org":"${org}",
+		"env":"${env}"
+	}
+}

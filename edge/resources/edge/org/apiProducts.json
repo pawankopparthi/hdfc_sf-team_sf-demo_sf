@@ -1,0 +1,29 @@
+[
+    {
+        "name": "demo_sfProduct",
+        "apiResources": [],
+        "approvalType": "auto",
+        "attributes": [
+            {
+                "name": "description",
+                "value": "demo_sfProduct"
+            },
+            {
+                "name": "access",
+                "value": "private"
+            }
+        ],
+        "description": "demo_sfProduct",
+        "displayName": "demo_sfProduct",
+        "environments": [
+            "${env}"
+        ],
+        "proxies": [
+            "hdfc_sf-team_sf-demo_sf"
+        ],
+        "quota": "10000",
+        "quotaInterval": "1",
+        "quotaTimeUnit": "month",
+        "scopes": []
+    } 
+]

@@ -1,0 +1,22 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.sidgs.apigee</groupId>
+    <artifactId>hdfc_sf-team_sf-demo_sf-parent</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0.0-SNAPSHOT</version>
+    <name>hdfc_sf-team_sf-demo_sf-parent</name>
+
+    <parent>
+        <groupId>com.sidgs.api.commons</groupId>
+        <artifactId>sidgs-parent-pom</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+
+    <properties>
+        <teamName>team_sf</teamName>
+    </properties>
+
+	<modules>
+		<module>edge</module>
+	</modules>
+</project>
